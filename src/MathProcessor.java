@@ -3,7 +3,7 @@ public class MathProcessor extends Processor {
         System.out.println("Sum od integer je " + (i + e));
     }
     public void process(int[] ints){
-        int sum = 0;
+        int sum = 1;
         for (int i: ints){
             sum+=i;
 
